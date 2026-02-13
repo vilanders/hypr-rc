@@ -1,2 +1,2 @@
 # my-hyprlandrice
- rice $\in$ Ended
+ WARNING: rice is $\varnothing$
