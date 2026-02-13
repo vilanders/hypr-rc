@@ -1,2 +1,2 @@
 # my-hyprlandrice
- rice $\nin$ Ended
+ rice $\in$ Ended
