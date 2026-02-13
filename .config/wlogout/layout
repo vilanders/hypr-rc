@@ -1,0 +1,36 @@
+{
+    "label" : "lock",
+    "action" : "gtklock",
+    "text" : "",
+    "keybind" : "l"
+}
+{
+    "label" : "hibernate",
+    "action" : "systemctl hibernate || loginctl hibernate",
+    "text" : "",
+    "keybind" : "h"
+}
+{
+    "label" : "logout",
+    "action" : "hyprctl clients -j | jq -r '.[].pid' | xargs kill; pkill Hyprland || pkill sway || pkill niri || loginctl terminate-user $USER",
+    "text" : "󰍃",
+    "keybind" : "e"
+}
+{
+    "label" : "shutdown",
+    "action" : "hyprctl clients -j | jq -r '.[].pid' | xargs kill; systemctl poweroff || loginctl poweroff",
+    "text" : "⏻",
+    "keybind" : "s"
+}
+{
+    "label" : "suspend",
+    "action" : "systemctl suspend || loginctl suspend",
+    "text" : "",
+    "keybind" : "u"
+}
+{
+    "label" : "reboot",
+    "action" : "hyprctl clients -j | jq -r '.[].pid' | xargs kill; systemctl reboot || loginctl reboot",
+    "text" : "",
+    "keybind" : "r"
+}
