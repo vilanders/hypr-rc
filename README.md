@@ -1,2 +1,2 @@
 # my-hyprlandrice
- WARNING: rice is $\varnothing$
+ WARNING: rice is unfunctional
