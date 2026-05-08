@@ -1,7 +1,6 @@
 {
   "layer": "top",
-  "width": 1300,
-  "margin-top": 10,
+  "margin-top": -1,
   "margin-bottom": 0,
 
   // Modules layout
@@ -14,6 +13,13 @@
     "tooltip": false,
     "format" : "󰣇",
     "on-click": "rofi -show drun"
+  },
+  "custom/screenshots": {
+    "tooltip": false,
+    "format": "",
+    "on-click": "hyprshot -m output",
+    "on-click-right": "hyprshot -m region",
+    "on-click-middle": "hyprshot -m window"
   },
   "cpu": {
     "interval": 15,
@@ -53,7 +59,7 @@
   "network": {
     "tooltip": false,
     "format-wifi": "<span color='#9ece6a'> </span> <span color='#F1F1F1'>{bandwidthDownBits}</span>",
-    "format-ethernet": "",
+    "format-ethernet": "<span color='#9ece6a'>󰈀 </span> <span color='#F1F1F1'>{bandwidthDownBits}</span>",
     "interval": 30
   },
   "backlight": {
@@ -86,17 +92,17 @@
     "format-alt": "<span color='#7aa2f7'>󰃭</span>  <span color='#F1F1F1'>{:%Y-%m-%d}</span>",
     "tooltip-format": "<tt><small>{calendar}</small></tt>",
     "calendar": {
-      "mode": "month",
-      "mode-mon-col": 3,
-      "weeks-pos": "right",
-      "on-scroll": 1,
+      "mode"          : "month",
+      "mode-mon-col"  : 3,
+      "weeks-pos"     : "right",
+      "on-scroll"     : 1,
       "on-click-right": "mode",
       "format": {
-        "months": "<span color='#7aa2f7'><b>{}</b></span>",
-        "days": "<span color='#f1f1f1'><b>{}</b></span>",
-        "weeks": "<span color='#9ece6a'><b>{}</b></span>",
-        "weekdays": "<span color='#e0af68'><b>{}</b></span>",
-        "today": "<span color='#f7768e'><b><u>{}</u></b></span>"
+        "months":     "<span color='#7aa2f7'><b>{}</b></span>",
+        "days":       "<span color='#f1f1f1'><b>{}</b></span>",
+        "weeks":      "<span color='#9ece6a'><b>{}</b></span>",
+        "weekdays":   "<span color='#e0af68'><b>{}</b></span>",
+        "today":      "<span color='#f7768e'><b><u>{}</u></b></span>"
       }
 
     },
@@ -124,12 +130,5 @@
   "tray": {
     "tooltip": false,
     "spacing": 10
-  },
-  "custom/screenshots": {
-    "tooltip": false,
-    "format": "",
-    "on-click": "hyprshot -m output",
-    "on-click-right": "hyprshot -m region",
-    "on-click-middle": "hyprshot -m window"
   }
 }
