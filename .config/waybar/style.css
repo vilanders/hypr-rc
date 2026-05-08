@@ -1,16 +1,15 @@
 * {
     border: none;
-    border-radius: 10px;
     font-family: "JetBrainsMono Nerd Font";
     font-size: 15px;
-    min-height: 10px;
+    /* min-height: 10px; */
 }
 
 window {}
 
 window#waybar {
-    background-color: #1A1B26;
-    border-radius: 15px;
+    background-color: rgba(26, 27, 38, 0.9);      /*#1A1B26*/;
+    border-radius: 10px;
     margin-top: 6px;
 }
 
@@ -18,17 +17,18 @@ window#waybar-hidden {
     opacity: 0.2;
 }
 
+
 #window {
     padding-left: 10px;
     padding-right: 10px;
-    border-radius: 10px;
+    border-radius: 18px;
     transition: none;
     color: transparent;
     background: transparent;
 }
 
 #workspaces {
-  margin: 2px 2px 2px 2px;
+  margin: 6px 6px 6px 6px;
   border-radius: 18px;
   background: #222330;
   transition: none;
@@ -66,7 +66,7 @@ window#waybar-hidden {
 }
 
 #network {
-  margin: 2px 2px 2px 2px;
+  margin: 6px 6px 6px 6px;
   border-radius: 18px;
   background: #222330;
   transition: none;
@@ -75,7 +75,7 @@ window#waybar-hidden {
 }
 
 #battery {
-  margin: 2px 2px 2px 2px;
+  margin: 6px 6px 6px 6px;
   border-radius: 18px;
   background: #222330;
   transition: none;
@@ -84,7 +84,7 @@ window#waybar-hidden {
 }
 
 #clock {
-  margin: 2px 2px 2px 2px;
+  margin: 6px 6px 6px 6px;
   border-radius: 18px;
   transition: none;
   padding-left: 12px;
@@ -92,7 +92,7 @@ window#waybar-hidden {
 }
 
 #cpu {
-  margin: 2px 2px 2px 2px;
+  margin: 6px 6px 6px 6px;
   border-radius: 18px;
   background: #222330;
   transition: none;
@@ -102,7 +102,7 @@ window#waybar-hidden {
 }
 
 #memory {
-  margin: 2px 2px 2px 2px;
+  margin: 6px 6px 6px 6px;
   border-radius: 18px;
   background: #222330;
   transition: none;
@@ -111,7 +111,7 @@ window#waybar-hidden {
 }
 
 #disk {
-  margin: 2px 2px 2px 2px;
+  margin: 6px 6px 6px 6px;
   border-radius: 18px;
   background: #222330;
   transition: none;
@@ -119,8 +119,8 @@ window#waybar-hidden {
   padding-right: 12px;
 }
 
-#custom-launcher {
-  margin: 2px 2px 2px 2px;
+#custom-launcher { 
+  margin: 6px 6px 6px 6px;
   border-radius: 18px;
   transition: none;
   color: #7aa2f7;
@@ -129,16 +129,17 @@ window#waybar-hidden {
 }
 
 #custom-screenshots {
-  margin: 2px 2px 2px 2px;
+  margin: 6px 6px 6px 6px;
   border-radius: 18px;
   background: #222330;
   transition: none;
+  color: #ffffff;
   padding-left: 12px;
   padding-right: 12px;
 }
 
 #pulseaudio {
-  margin: 2px 2px 2px 2px;
+  margin: 6px 6px 6px 6px;
   border-radius: 18px;
   background: #222330;
   transition: none;
@@ -147,10 +148,11 @@ window#waybar-hidden {
 }
 
 #tray {
-  margin: 2px 2px 2px 2px;
+  margin: 6px 6px 6px 6px;
   border-radius: 18px;
   background: #222330;
   transition: none;
   padding-left: 12px;
   padding-right: 12px;
 }
+
