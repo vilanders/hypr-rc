@@ -9,7 +9,6 @@ window {}
 
 window#waybar {
     background-color: rgba(26, 27, 38, 0.9);      /*#1A1B26*/;
-    border-radius: 10px;
     margin-top: 6px;
 }
 
