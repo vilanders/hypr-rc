@@ -15,7 +15,7 @@ if [ "$decision" = "y" ]; then
     makepkg -si
   fi
 
-  yay -S waypaper mpvpaper gtk2 wlogout zen-browser bauh --noconfirm
+  yay -S waypaper mpvpaper gtk2 wlogout zen-browser-bin bauh --noconfirm
 
   cp ~/hypr-rc/.config/* ~/.config/
 
