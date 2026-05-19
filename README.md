@@ -26,11 +26,11 @@ super + F = Opens the file manager (thunar)
 
 super + B = Opens the browser (Zen Browser)
 
-super + ($\rightarrow$,$\arrow$, $\uparrow$ or $\downarrow$ keys) = Transfer focus to another window in the same workspace
+super + ($\rightarrow$, $\arrow$, $\uparrow$ or $\downarrow$ keys) = Transfer focus to another window in the same workspace
 
 super + (1,2,3,...,9 keys) = Changes between specified workspaces
 
-super + shift + ((1,2,3,...,9 keys) = Change to an specified workspace for an hovered window
+super + shift + (1,2,3,...,9 keys) = Change to an specified workspace for an hovered window
 
 super + backspace = logout manager (wlogout)
 
