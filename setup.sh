@@ -17,9 +17,9 @@ if [ "$decision" = "y" ]; then
 
   yay -S waypaper mpvpaper gtk2 wlogout zen-browser-bin bauh --noconfirm
 
-  cp ~/hypr-rc/.config/* ~/.config/
+  cp -rf ~/hypr-rc/.config/* ~/.config/
 
-  cp ~/hypr-rc/wallpapers ~/
+  cp -rf ~/hypr-rc/wallpapers ~/
 
   hyprctl reload
 
