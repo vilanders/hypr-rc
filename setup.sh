@@ -15,11 +15,13 @@ if [ "$decision" = "y" ]; then
     makepkg -si
   fi
 
-  yay -S waypaper mpvpaper gtk2 wlogout grub-silent bauh
+  yay -S waypaper mpvpaper gtk2 wlogout zen-browser bauh --noconfirm
 
   cp ~/hypr-rc/.config/* ~/.config/
 
   cp ~/hypr-rc/wallpapers ~/
+
+  hyprctl reload
 
   layout=$(cat ~/.config/hypr/hyprland.conf | grep "kb_layout" | awk -F '=' '{print $2}' | xargs)
 
