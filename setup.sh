@@ -6,7 +6,7 @@ read -p "[y/N] " decision
 
 if [ "$decision" = "y" ]; then
 
-  sudo pacman -Syu --needed base-devel hyprland rofi mpv kitty breeze waybar pavucontrol-qt hyprshot dunst thunar udiskie btop fastfetch zsh ttf-jetbrains-mono libreoffice-fresh flatpak git adw-gtk-theme gtk3 gtk4 qt6ct gtklock
+  sudo pacman -Syu --needed base-devel hyprland rofi mpv kitty breeze waybar pavucontrol-qt hyprshot dunst thunar udiskie btop fastfetch zsh ttf-jetbrains-mono-nerd libreoffice-fresh flatpak git adw-gtk-theme gtk3 gtk4 qt6ct gtklock
 
   git clone https://aur.archlinux.org/yay.git ~/yay
 
