@@ -26,7 +26,7 @@ super + F = Opens the file manager (thunar)
 
 super + B = Opens the browser (Zen Browser)
 
-super + ($\rightarrow$, $\arrow$, $\uparrow$ or $\downarrow$ keys) = Transfer focus to another window in the same workspace
+super + ($\rightarrow$, $\leftarrow$, $\uparrow$ or $\downarrow$ keys) = Transfer focus to another window in the same workspace
 
 super + (1,2,3,...,9 keys) = Changes between specified workspaces
 
