@@ -1,7 +1,6 @@
 # my-hyprlandrice
 > [!WARNING]
 > This script could overwrite all your configuration, make sure to make backup.
-> It's in an experimental fase
 > This only works on arch-based distros!
 
 # Installation
