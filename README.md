@@ -1,4 +1,4 @@
-# my-hyprlandrice
+# my-hyprlandrice BETA!
 
 ![resource.png](thumbnailrc.png)
 
