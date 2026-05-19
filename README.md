@@ -1,6 +1,6 @@
 # my-hyprlandrice
 
-[resource.png](.resource.png)
+![resource.png](.resource.png)
 
 > [!WARNING]
 > This script could overwrite all your configuration, make sure to make backup.
